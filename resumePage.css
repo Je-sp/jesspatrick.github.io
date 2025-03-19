@@ -1,0 +1,193 @@
+body {
+    background: #FAF3F0;
+    color: #2E2E2E;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  p {
+    font-family: Montserrat, Poppins, sans-serif;
+    line-height: 1.8;
+    font-size: 24px;
+
+  }
+  
+  .container {
+    max-width: 800px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 25%;
+    padding: 20px;
+  } 
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #2962ff;
+    background: #e0f2f7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .name {
+    font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+    margin-bottom: 0;
+    text-align: center;
+    color: #1a237e;
+  }
+  
+  .sub {
+    font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+    margin-top: 0;
+    text-align: center;
+    color: #1565c0;
+  }
+  
+  #techSkills, #workEx, #edAt, #stsa, #hobbiesAndInterests {
+    font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+  }
+  
+  .highlight {
+    color: #2979ff;
+    font-weight: bold;
+  }
+  
+  li {
+    font-family: Montserrat, Poppins, sans-serif;
+    line-height: 1.8;
+    font-size: 24px;
+  }
+  
+  ul {
+    padding-left: 20px;
+    font-family: Montserrat, Poppins, sans-serif;
+    line-height: 1.8;
+    font-size: 24px;
+  }
+  
+  .square {
+    list-style-type: square;
+  }
+  
+  .circle {
+    list-style-type: circle;
+  }
+  
+  .disc {
+    list-style-type: disc;
+  }
+  
+  .sidebar {
+    font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+    font-size: 20px;
+    width: 200px;
+    height: 100vh;
+    background-color: #FFF;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2E3192;
+    text-align: center;
+  }
+  
+  .sidebar .bar-item {
+    font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+    display: block;
+    padding: 10px;
+    color: #2E2E2E;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar .bar-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+    font-size: 1.9em;
+    color: #2E3192;
+    text-align: center;
+    margin-bottom: 12px;
+    text-decoration: underline;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2E3192;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.2s;
+    font-family: 'Ubuntu Mono','Hedvig Letters Serif', serif;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2E3192;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.2s;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #0400ff;
+  }
+
+#content .top .arrow-up {
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        display: inline-flex;
+        position: fixed;
+        left: 95%;
+        top: 90%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 90%);
+    }
+    
+#content .top .arrow-up a ~ i{
+        color: #2E3192;
+    }
+
+.to-top {
+    position: fixed;
+    display: inline-flex;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 90%);
+}
+
+.to-top img {
+    width: 25px;
+    height: 25px;
+}
+
+.to-top:hover {
+    transform: scale(1.2) rotate(360deg);
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
